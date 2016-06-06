@@ -1,0 +1,47 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "xuKAFKLH2qSHhhGwf/hmkuirzhg=",
+			"origin": "github.com/sent-hil/caltrain-realtime/vendor/github.com/PuerkitoBio/goquery",
+			"path": "github.com/PuerkitoBio/goquery",
+			"revision": "ffbc5aa6b8d08d810f4607f638ba5a1c905e2af2",
+			"revisionTime": "2016-06-05T02:44:27Z"
+		},
+		{
+			"checksumSHA1": "YKJEHQmesxr6ExwGE4WZrpQsq4s=",
+			"origin": "github.com/sent-hil/caltrain-realtime/vendor/github.com/andybalholm/cascadia",
+			"path": "github.com/andybalholm/cascadia",
+			"revision": "ffbc5aa6b8d08d810f4607f638ba5a1c905e2af2",
+			"revisionTime": "2016-06-05T02:44:27Z"
+		},
+		{
+			"checksumSHA1": "wIMNNn2XK/FlmBgrGDpLyfeToHs=",
+			"path": "github.com/huin/goserial",
+			"revision": "7b90efdb22b1c168a57b998b2780cf541b2c4740",
+			"revisionTime": "2012-10-12T07:36:15Z"
+		},
+		{
+			"checksumSHA1": "m6tYbemcH8Ur2yNj6nnaUxdT/pw=",
+			"path": "github.com/sent-hil/caltrain-realtime",
+			"revision": "ffbc5aa6b8d08d810f4607f638ba5a1c905e2af2",
+			"revisionTime": "2016-06-05T02:44:27Z"
+		},
+		{
+			"checksumSHA1": "vqc3a+oTUGX8PmD0TS+qQ7gmN8I=",
+			"origin": "github.com/sent-hil/caltrain-realtime/vendor/golang.org/x/net/html",
+			"path": "golang.org/x/net/html",
+			"revision": "ffbc5aa6b8d08d810f4607f638ba5a1c905e2af2",
+			"revisionTime": "2016-06-05T02:44:27Z"
+		},
+		{
+			"checksumSHA1": "00eQaGynDYrv3tL+C7l9xH0IDZg=",
+			"origin": "github.com/sent-hil/caltrain-realtime/vendor/golang.org/x/net/html/atom",
+			"path": "golang.org/x/net/html/atom",
+			"revision": "ffbc5aa6b8d08d810f4607f638ba5a1c905e2af2",
+			"revisionTime": "2016-06-05T02:44:27Z"
+		}
+	],
+	"rootPath": "github.com/sent-hil/arduino-caltrain"
+}
