@@ -14,8 +14,6 @@ const (
 	// default settings for Arduino UNO
 	deviceName = "/dev/tty.usbmodem1421"
 	deviceBaud = 9600
-
-	interval = 10 * time.Second
 )
 
 var (
@@ -28,16 +26,14 @@ var (
 )
 
 func main() {
-	for _ = range time.Tick(interval) {
-		msg, err := getTimings()
-		if err != nil {
-			sendMessage(fmt.Sprintf("Error: %s", err))
-			log.Fatal(err)
-		}
+	msg, err := getTimings()
+	if err != nil {
+		sendMessage(fmt.Sprintf("Error: %s", err))
+		log.Fatal(err)
+	}
 
-		if err := sendMessage(msg); err != nil {
-			log.Fatal(err)
-		}
+	if err := sendMessage(msg); err != nil {
+		log.Fatal(err)
 	}
 }
 
